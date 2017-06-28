@@ -1,0 +1,72 @@
+[
+	{
+		"mission_name": "SES-10",
+        "dates_utc": {
+            "launch": "2017-03-30 22:27",
+            "docked": "2017-04-04 12:00",
+            "crane_cap_on_booster": "2017-04-04 13:30",
+            "ship_lift_start":  "2017-04-04 14:50",
+            "ship_lift_finish": "2017-04-04 15:25",
+            "first_leg_piston_removed": "",
+            "last_leg_removed": "2017-04-05 20:19",
+            "horizontal": "2017-04-08 12:09",
+            "transported": "2017-04-08 16:45"
+        }
+    },
+	{
+		"mission_name": "JCSAT-16",
+        "dates_utc": {
+            "launch": "2016-08-14 05:26",
+            "docked": "2016-08-17 13:48",
+            "crane_cap_on_booster": "2016-08-17 16:35",
+            "ship_lift_start":  "2016-08-17 17:22",
+            "ship_lift_finish": "2016-08-17 18:53",
+            "first_leg_piston_removed": "2016-08-19 20:04",
+            "last_leg_removed": "2016-08-20 18:44",
+            "horizontal": "2016-08-23 21:49",
+            "transported": ""
+        }
+    },
+	{
+		"mission_name": "THAICOM-8",
+        "dates_utc": {
+            "launch": "2016-05-27 21:39",
+            "docked": "2016-06-02 16:34",
+            "crane_cap_on_booster": "2016-06-02 19:40",
+            "ship_lift_start":  "2016-06-03 00:08",
+            "ship_lift_finish": "2016-06-03 00:30",
+            "first_leg_piston_removed": "2016-06-03 19:30",
+            "last_leg_removed": "2016-06-04 13:30",
+            "horizontal": "2016-06-04 23:45",
+            "transported": "2016-06-06 13:35"
+        }
+    },
+	{
+		"mission_name": "JCSAT-14",
+        "dates_utc": {
+            "launch": "2016-05-06 05:21",
+            "docked": "2016-05-10 03:22",
+            "crane_cap_on_booster": "2016-05-10 07:45",
+            "ship_lift_start":  "2016-05-10 15:40",
+            "ship_lift_finish": "2016-05-10 16:00",
+            "first_leg_piston_removed": "2016-05-12 14:52",
+            "last_leg_removed": "",
+            "horizontal": "2016-05-13 16:25",
+            "transported": "2016-05-14 14:00"
+        }
+    },
+	{
+		"mission_name": "CRS-8",
+        "dates_utc": {
+            "launch": "2016-04-08 16:43",
+            "docked": "2016-04-12 06:16",
+            "crane_cap_on_booster": "2016-04-12 09:01",
+            "ship_lift_start":  "2016-04-12 14:02",
+            "ship_lift_finish": "2016-04-12 14:15",
+            "first_leg_piston_removed": "2016-04-14 19:59",
+            "last_leg_removed": "2016-04-18 15:10",
+            "horizontal": "2016-04-18 15:29",
+            "transported": "2016-04-19 13:34"
+        }
+    }
+]
