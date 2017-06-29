@@ -5,7 +5,7 @@ from __future__ import print_function
 from datetime import datetime
 import json
 
-MAX_ENTRIES_PER_LINE = 5
+MAX_ENTRIES_PER_LINE = 4
 
 rows = [
     'launch',
