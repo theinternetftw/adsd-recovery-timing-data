@@ -71,7 +71,7 @@ def main():
 
             for row_name, fn in calcs:
                 cols_data = [fn(entry) for entry in data]
-                cols = ['{:.01f}'.format(x) if x != None else '' for x in cols_data]
+                cols = ['{:.02f}'.format(x) if x != None else '' for x in cols_data]
                 display_row_name = row_name.replace('_', ' ')
                 md += '| ' + '| '.join([display_row_name] + cols) + '|\n'
             md += '\n'
