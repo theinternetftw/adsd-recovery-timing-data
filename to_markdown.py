@@ -60,7 +60,7 @@ def main():
             data = all_data[idx : idx + MAX_ENTRIES_PER_LINE]
 
             names = [entry['mission_name'] for entry in data]
-            md += '| ---| ' + '| '.join(names) + '|\n'
+            md += '| | ' + '| '.join(names) + '|\n'
             dashes = ['---' for entry in data]
             md += '| ---| ' + '| '.join(dashes) + '|\n'
 
