@@ -18,8 +18,8 @@
         "mission_name": "BulgariaSat-1",
         "dates_utc": {
             "launch": "2017-06-23 19:10",
-            "docked": "",
-            "crane_cap_on_booster": "",
+            "docked": "2017-06-29 13:15",
+            "crane_cap_on_booster": "2017-06-29 16:00",
             "ship_lift_start":  "",
             "ship_lift_finish": "",
             "first_leg_piston_removed": "",
