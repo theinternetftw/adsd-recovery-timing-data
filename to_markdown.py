@@ -50,32 +50,41 @@ calcs = [
     make_time_calc('launch', 'relaunch', 'days'),
 ]
 
+def make_table(all_data):
+    md = ''
+    for idx in range(0, len(all_data), MAX_ENTRIES_PER_LINE):
+        data = all_data[idx : idx + MAX_ENTRIES_PER_LINE]
+
+        names = [entry['mission_name'] for entry in data]
+        md += '| | ' + '| '.join(names) + '|\n'
+        dashes = ['---' for entry in data]
+        md += '| ---| ' + '| '.join(dashes) + '|\n'
+
+        for row_name in rows:
+            cols = [entry['dates_utc'][row_name] for entry in data]
+            display_row_name = row_name.replace('_', ' ')
+            md += '| ' + '| '.join([display_row_name] + cols) + '|\n'
+
+        for row_name, fn in calcs:
+            cols_data = [fn(entry) for entry in data]
+            cols = ['{:.02f}'.format(x) if x != None else '' for x in cols_data]
+            display_row_name = row_name.replace('_', ' ')
+            md += '| ' + '| '.join([display_row_name] + cols) + '|\n'
+        md += '\n'
+    return md
+
 def main():
     with open('data.json', 'rb') as f:
 
         all_data = json.load(f)
 
-        md = ''
-        for idx in range(0, len(all_data), MAX_ENTRIES_PER_LINE):
-            data = all_data[idx : idx + MAX_ENTRIES_PER_LINE]
+        print('### East Coast Landings:\n')
+        print(make_table([x for x in all_data if x['port'] == 'Port Canaveral']))
 
-            names = [entry['mission_name'] for entry in data]
-            md += '| | ' + '| '.join(names) + '|\n'
-            dashes = ['---' for entry in data]
-            md += '| ---| ' + '| '.join(dashes) + '|\n'
+        print('### West Coast Landings:\n')
+        print(make_table([x for x in all_data if x['port'] == 'Port of L.A.']))
 
-            for row_name in rows:
-                cols = [entry['dates_utc'][row_name] for entry in data]
-                display_row_name = row_name.replace('_', ' ')
-                md += '| ' + '| '.join([display_row_name] + cols) + '|\n'
 
-            for row_name, fn in calcs:
-                cols_data = [fn(entry) for entry in data]
-                cols = ['{:.02f}'.format(x) if x != None else '' for x in cols_data]
-                display_row_name = row_name.replace('_', ' ')
-                md += '| ' + '| '.join([display_row_name] + cols) + '|\n'
-            md += '\n'
-        print(md)
 
 if __name__ == '__main__':
     main()

@@ -1,6 +1,7 @@
 [
     {
         "mission_name": "Iridium NEXT-2",
+        "port": "Port of L.A.",
         "dates_utc": {
             "launch": "2017-06-25 20:25",
             "docked": "2017-06-28 20:00",
@@ -16,6 +17,7 @@
     },
     {
         "mission_name": "BulgariaSat-1",
+        "port": "Port Canaveral",
         "dates_utc": {
             "launch": "2017-06-23 19:10",
             "docked": "2017-06-29 13:15",
@@ -31,6 +33,7 @@
     },
     {
         "mission_name": "SES-10",
+        "port": "Port Canaveral",
         "dates_utc": {
             "launch": "2017-03-30 22:27",
             "docked": "2017-04-04 12:00",
@@ -46,6 +49,7 @@
     },
     {
         "mission_name": "Iridium NEXT-1",
+        "port": "Port of L.A.",
         "dates_utc": {
             "launch": "2017-01-14 17:54",
             "docked": "2017-01-17 14:18",
@@ -61,6 +65,7 @@
     },
     {
         "mission_name": "JCSAT-16",
+        "port": "Port Canaveral",
         "dates_utc": {
             "launch": "2016-08-14 05:26",
             "docked": "2016-08-17 13:48",
@@ -76,6 +81,7 @@
     },
     {
         "mission_name": "THAICOM-8",
+        "port": "Port Canaveral",
         "dates_utc": {
             "launch": "2016-05-27 21:39",
             "docked": "2016-06-02 16:34",
@@ -91,6 +97,7 @@
     },
     {
         "mission_name": "JCSAT-14",
+        "port": "Port Canaveral",
         "dates_utc": {
             "launch": "2016-05-06 05:21",
             "docked": "2016-05-10 03:22",
@@ -106,6 +113,7 @@
     },
     {
         "mission_name": "CRS-8",
+        "port": "Port Canaveral",
         "dates_utc": {
             "launch": "2016-04-08 16:43",
             "docked": "2016-04-12 06:16",
