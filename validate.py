@@ -32,9 +32,9 @@ def check_types(ref, test):
 
 def check_keys(ref, test):
     for x in ref:
-        assert x in test, x + ' should be in ' + repr(test)
+        assert x in test, x + ' should be a key in ' + repr(test)
     for t in test:
-        assert t in ref, x + ' not in ref: ' + repr(ref)
+        assert t in ref, repr(t) + ' not an expected key: ' + repr(ref)
 
 def check_dict(ref, d):
     assert type(d) == dict, repr(d) + ' should be dict'
