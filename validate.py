@@ -48,11 +48,14 @@ def check_dict(ref, d):
         else:
             check_types(val, d[key])
 
+def check_json(json):
+    for entry in json:
+        check_dict(required_structure, entry)
+
 def main():
     with open('data.json', 'rb') as f:
         data = json.load(f)
-        for entry in data:
-            check_dict(required_structure, entry)
+        check_json(data)
 
 if __name__ == '__main__':
     main()

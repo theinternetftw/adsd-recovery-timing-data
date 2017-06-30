@@ -1,7 +1,9 @@
-#! /bin/bash -eu
+#! /usr/bin/env python
 
 # this is the runscript.
 
-./validate.py
-./to_markdown.py
+import validate
+validate.main()
 
+import to_markdown
+to_markdown.main()
