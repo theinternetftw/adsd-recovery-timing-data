@@ -78,10 +78,10 @@ def main():
 
         all_data = json.load(f)
 
-        print('### East Coast Landings:\n')
+        print('### East Coast Landings\n')
         print(make_table([x for x in all_data if x['port'] == 'Port Canaveral']))
 
-        print('### West Coast Landings:\n')
+        print('### West Coast Landings\n')
         print(make_table([x for x in all_data if x['port'] == 'Port of L.A.']))
 
 
