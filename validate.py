@@ -8,6 +8,7 @@ import json
 required_structure = {
     'mission_name': str,
     'port': 'port',
+    'recovery_thread': str,
     'dates_utc': {
         'launch': 'time',
         'docked': 'time',

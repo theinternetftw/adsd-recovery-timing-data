@@ -50,13 +50,18 @@ calcs = [
     make_time_calc('launch', 'relaunch', 'days'),
 ]
 
+def make_link(text, url):
+	safe_text = text.replace(']', '\\]')
+	safe_url = url.replace(')', '\\)')
+	return '[' + safe_text + ']' + '(' + safe_url + ')'
+
 def make_table(all_data):
     md = ''
     for idx in range(0, len(all_data), MAX_ENTRIES_PER_LINE):
         data = all_data[idx : idx + MAX_ENTRIES_PER_LINE]
 
-        names = [entry['mission_name'] for entry in data]
-        md += '| | ' + '| '.join(names) + '|\n'
+        name_links = [make_link(entry['mission_name'], entry['recovery_thread']) for entry in data]
+        md += '| | ' + '| '.join(name_links) + '|\n'
         dashes = ['---' for entry in data]
         md += '| ---| ' + '| '.join(dashes) + '|\n'
 

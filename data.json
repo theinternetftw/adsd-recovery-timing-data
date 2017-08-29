@@ -2,6 +2,7 @@
     {
         "mission_name": "Formosat-5",
         "port": "Port of L.A.",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/6wk653/",
         "dates_utc": {
             "launch": "2017-08-24 18:51",
             "docked": "2017-08-28 17:00",
@@ -18,6 +19,7 @@
     {
         "mission_name": "Iridium NEXT-2",
         "port": "Port of L.A.",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/6k16ho/",
         "dates_utc": {
             "launch": "2017-06-25 20:25",
             "docked": "2017-06-28 20:00",
@@ -34,6 +36,7 @@
     {
         "mission_name": "BulgariaSat-1",
         "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/6k3kop/",
         "dates_utc": {
             "launch": "2017-06-23 19:10",
             "docked": "2017-06-29 13:15",
@@ -50,6 +53,7 @@
     {
         "mission_name": "SES-10",
         "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/634gmr/",
         "dates_utc": {
             "launch": "2017-03-30 22:27",
             "docked": "2017-04-04 12:00",
@@ -66,6 +70,7 @@
     {
         "mission_name": "Iridium NEXT-1",
         "port": "Port of L.A.",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/5oe9kk/",
         "dates_utc": {
             "launch": "2017-01-14 17:54",
             "docked": "2017-01-17 14:18",
@@ -82,6 +87,7 @@
     {
         "mission_name": "JCSAT-16",
         "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/4y5xd1/",
         "dates_utc": {
             "launch": "2016-08-14 05:26",
             "docked": "2016-08-17 13:48",
@@ -98,6 +104,7 @@
     {
         "mission_name": "THAICOM-8",
         "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/4lz2y6/",
         "dates_utc": {
             "launch": "2016-05-27 21:39",
             "docked": "2016-06-02 16:34",
@@ -114,6 +121,7 @@
     {
         "mission_name": "JCSAT-14",
         "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/4ihp1p/",
         "dates_utc": {
             "launch": "2016-05-06 05:21",
             "docked": "2016-05-10 03:22",
@@ -130,6 +138,7 @@
     {
         "mission_name": "CRS-8",
         "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/4ee2zy/",
         "dates_utc": {
             "launch": "2016-04-08 16:43",
             "docked": "2016-04-12 06:16",
