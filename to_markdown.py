@@ -44,6 +44,7 @@ calcs = [
     make_time_calc('launch', 'docked', 'days'),
     make_time_calc('docked', 'ship_lift_start', 'hours'),
     make_time_calc('docked', 'ship_lift_finish', 'hours'),
+    make_time_calc('docked', 'first_leg_piston_removed', 'days'),
     make_time_calc('docked', 'last_leg_removed', 'days'),
     make_time_calc('docked', 'horizontal', 'days'),
     make_time_calc('docked', 'transported', 'days'),
