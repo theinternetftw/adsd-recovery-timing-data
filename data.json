@@ -1,5 +1,22 @@
 [
     {
+        "mission_name": "Iridium NEXT-3",
+        "port": "Port of L.A.",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/75z823/",
+        "dates_utc": {
+            "launch": "2017-10-09 12:37",
+            "docked": "2017-10-12 16:52",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "2017-10-13 01:35",
+            "first_leg_piston_removed": "",
+            "last_leg_removed": "",
+            "horizontal": "",
+            "transported": "",
+            "relaunch": ""
+        }
+    },
+    {
         "mission_name": "Formosat-5",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/6wk653/",
