@@ -1,5 +1,22 @@
 [
     {
+        "mission_name": "SES-11 / Echostar-105",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/76fqz1/",
+        "dates_utc": {
+            "launch": "2017-10-11 22:53",
+            "docked": "2017-10-15 11:59",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "2017-10-16 15:00",
+            "first_leg_piston_removed": "",
+            "last_leg_removed": "2017-10-17 22:00",
+            "horizontal": "",
+            "transported": "",
+            "relaunch": ""
+        }
+    },
+    {
         "mission_name": "Iridium NEXT-3",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/75z823/",
@@ -8,9 +25,9 @@
             "docked": "2017-10-12 16:52",
             "crane_cap_on_booster": "",
             "ship_lift_start":  "",
-            "ship_lift_finish": "2017-10-13 01:35",
+            "ship_lift_finish": "2017-10-12 21:34",
             "first_leg_piston_removed": "",
-            "last_leg_removed": "",
+            "last_leg_removed": "2017-10-14 14:47",
             "horizontal": "",
             "transported": "",
             "relaunch": ""
