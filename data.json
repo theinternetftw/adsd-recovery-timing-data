@@ -1,5 +1,22 @@
 [
     {
+        "mission_name": "Koreasat 5A",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/79iuvb/",
+        "dates_utc": {
+            "launch": "2017-10-30 19:34",
+            "docked": "2017-11-02 22:53",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "",
+            "first_leg_piston_removed": "",
+            "last_leg_removed": "",
+            "horizontal": "",
+            "transported": "",
+            "relaunch": ""
+        }
+    },
+    {
         "mission_name": "SES-11 / Echostar-105",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/76fqz1/",
