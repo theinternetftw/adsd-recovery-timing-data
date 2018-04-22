@@ -1,5 +1,22 @@
 [
     {
+        "mission_name": "TESS",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/8dg4pj/",
+        "dates_utc": {
+            "launch": "2018-04-18 22:51",
+            "docked": "2018-04-21 17:05",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "",
+            "first_leg_piston_removed": "",
+            "last_leg_removed": "",
+            "horizontal": "",
+            "transported": "",
+            "relaunch": ""
+        }
+    },
+    {
         "mission_name": "Koreasat 5A",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/79iuvb/",
@@ -47,7 +64,7 @@
             "last_leg_removed": "2017-10-14 14:47",
             "horizontal": "",
             "transported": "",
-            "relaunch": ""
+            "relaunch": "2018-03-30 14:13"
         }
     },
     {
@@ -64,7 +81,7 @@
             "last_leg_removed": "2017-08-31 16:59",
             "horizontal": "2017-09-02 02:03",
             "transported": "",
-            "relaunch": ""
+            "relaunch": "2018-02-22 14:17"
         }
     },
     {
@@ -81,7 +98,7 @@
             "last_leg_removed": "2017-06-30 21:00",
             "horizontal": "2017-07-03 14:36",
             "transported": "",
-            "relaunch": ""
+            "relaunch": "2017-12-23 01:27"
         }
     },
     {
@@ -166,7 +183,7 @@
             "last_leg_removed": "2016-06-04 13:30",
             "horizontal": "2016-06-04 23:45",
             "transported": "2016-06-06 13:35",
-            "relaunch": ""
+            "relaunch": "2018-02-06 20:45"
         }
     },
     {
