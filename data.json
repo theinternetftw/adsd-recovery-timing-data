@@ -6,10 +6,10 @@
         "dates_utc": {
             "launch": "2018-04-18 22:51",
             "docked": "2018-04-21 17:05",
-            "crane_cap_on_booster": "",
+            "crane_cap_on_booster": "2018-04-23 11:30",
             "ship_lift_start":  "",
-            "ship_lift_finish": "",
-            "first_leg_piston_removed": "",
+            "ship_lift_finish": "2018-04-23 18:00",
+            "first_leg_piston_removed": "2018-04-23 20:02",
             "last_leg_removed": "",
             "horizontal": "",
             "transported": "",
