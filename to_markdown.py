@@ -13,12 +13,24 @@ rows = [
     'crane_cap_on_booster',
     'ship_lift_start',
     'ship_lift_finish',
-    'first_leg_piston_removed',
-    'last_leg_removed',
+    'first_leg_started',
+    'last_leg_finished',
     'horizontal',
     'transported',
     'relaunch'
 ]
+
+def get_calcs():
+    return [
+        make_time_calc('launch', 'docked', 'days'),
+        make_time_calc('docked', 'ship_lift_start', 'hours'),
+        make_time_calc('docked', 'ship_lift_finish', 'hours'),
+        make_time_calc('docked', 'first_leg_started', 'days'),
+        make_time_calc('docked', 'last_leg_finished', 'days'),
+        make_time_calc('docked', 'horizontal', 'days'),
+        make_time_calc('docked', 'transported', 'days'),
+        make_time_calc('launch', 'relaunch', 'days'),
+    ]
 
 def parse_date(dstr):
     return datetime.strptime(dstr, '%Y-%m-%d %H:%M')
@@ -39,17 +51,6 @@ def make_time_calc(start, end, units):
             return time_conv[units](date_diff(entry, end, start))
         return None
     return name, calc
-
-calcs = [
-    make_time_calc('launch', 'docked', 'days'),
-    make_time_calc('docked', 'ship_lift_start', 'hours'),
-    make_time_calc('docked', 'ship_lift_finish', 'hours'),
-    make_time_calc('docked', 'first_leg_piston_removed', 'days'),
-    make_time_calc('docked', 'last_leg_removed', 'days'),
-    make_time_calc('docked', 'horizontal', 'days'),
-    make_time_calc('docked', 'transported', 'days'),
-    make_time_calc('launch', 'relaunch', 'days'),
-]
 
 def make_link(text, url):
 	safe_text = text.replace(']', '\\]')
@@ -78,6 +79,8 @@ def make_table(all_data):
             md += '| ' + '| '.join([display_row_name] + cols) + '|\n'
         md += '\n'
     return md
+
+calcs = get_calcs()
 
 def main():
     with open('data.json', 'rb') as f:
