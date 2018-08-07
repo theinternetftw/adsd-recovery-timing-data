@@ -1,5 +1,39 @@
 [
     {
+        "mission_name": "Iridium NEXT-7",
+        "port": "Port of L.A.",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/921sie/",
+        "dates_utc": {
+            "launch": "2018-07-25 11:39",
+            "docked": "2018-07-27 20:52",
+            "crane_cap_on_booster": "2018-07-28 16:54",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "2018-07-28 20:30",
+            "first_leg_started": "",
+            "last_leg_finished": "2018-08-01 19:40",
+            "horizontal": "2018-08-04 06:39",
+            "transported": "",
+            "relaunch": ""
+        }
+    },
+    {
+        "mission_name": "Telstar 19V",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/9105zw/",
+        "dates_utc": {
+            "launch": "2018-07-22 05:50",
+            "docked": "2018-07-25 11:51",
+            "crane_cap_on_booster": "2018-07-25 14:15",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "2018-07-26 13:33",
+            "first_leg_started": "2018-07-27 18:00",
+            "last_leg_finished": "2018-07-29 15:40",
+            "horizontal": "2018-07-30 19:18",
+            "transported": "2018-07-31 13:31",
+            "relaunch": ""
+        }
+    },
+    {
         "mission_name": "Bangabandhu-1",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/8j6moa/",
@@ -30,7 +64,7 @@
             "last_leg_finished": "2018-04-24 17:27",
             "horizontal": "2018-04-25 10:02",
             "transported": "",
-            "relaunch": ""
+            "relaunch": "2018-06-29 09:42"
         }
     },
     {
