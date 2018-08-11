@@ -1,5 +1,22 @@
 [
     {
+        "mission_name": "Merah Putih (Telkom-4)",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/95gg6j/",
+        "dates_utc": {
+            "launch": "2018-08-07 05:18",
+            "docked": "2018-08-09 21:23",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "2018-08-10 21:08",
+            "first_leg_started": "",
+            "last_leg_finished": "2018-08-10 22:56",
+            "horizontal": "2018-08-11 13:52",
+            "transported": "",
+            "relaunch": ""
+        }
+    },
+    {
         "mission_name": "Iridium NEXT-7",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/921sie/",
