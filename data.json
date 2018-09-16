@@ -1,5 +1,22 @@
 [
     {
+        "mission_name": "Telstar 18V",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/9erxlh/",
+        "dates_utc": {
+            "launch": "2018-09-10 04:45",
+            "docked": "2018-09-12 14:09",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "2018-09-12 19:58",
+            "first_leg_started": "2018-09-14 15:42",
+            "last_leg_finished": "2018-09-14 20:35",
+            "horizontal": "2018-09-15 13:12",
+            "transported": "2018-09-15 19:06",
+            "relaunch": ""
+        }
+    },
+    {
         "mission_name": "Merah Putih (Telkom-4)",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/95gg6j/",
