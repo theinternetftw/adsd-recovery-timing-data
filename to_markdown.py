@@ -17,7 +17,6 @@ rows = [
     'last_leg_finished',
     'horizontal',
     'transported',
-    'relaunch'
 ]
 
 def get_calcs():
@@ -29,7 +28,6 @@ def get_calcs():
         make_time_calc('docked', 'last_leg_finished', 'days'),
         make_time_calc('docked', 'horizontal', 'days'),
         make_time_calc('docked', 'transported', 'days'),
-        make_time_calc('launch', 'relaunch', 'days'),
     ]
 
 def parse_date(dstr):

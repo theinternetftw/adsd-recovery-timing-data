@@ -19,7 +19,6 @@ required_structure = {
         'last_leg_finished': 'time',
         'horizontal': 'time',
         'transported': 'time',
-        'relaunch': 'time',
     }
 }
 
