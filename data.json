@@ -1,5 +1,22 @@
 [
     {
+        "mission_name": "Es'Hail 2",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/9xmpa7/",
+        "dates_utc": {
+            "launch": "2018-11-15 20:46",
+            "docked": "2018-11-19 18:00",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "",
+            "first_leg_started": "",
+            "last_leg_finished": "",
+            "horizontal": "",
+            "transported": "",
+            "relaunch": ""
+        }
+    },
+    {
         "mission_name": "Telstar 18V",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/9erxlh/",
