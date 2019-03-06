@@ -1,5 +1,85 @@
 [
     {
+        "mission_name": "DM-1",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/awo5lf/",
+        "dates_utc": {
+            "launch": "2019-03-02 07:49",
+            "docked": "2019-03-05 15:23",
+            "crane_cap_on_booster": "2019-03-05 15:41",
+            "ship_lift_start":  "2019-03-05 19:00",
+            "ship_lift_finish": "",
+            "first_leg_started": "",
+            "last_leg_finished": "2019-03-06 21:20",
+            "horizontal": "",
+            "transported": ""
+        }
+    },
+    {
+        "mission_name": "Nusantara Satu",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/atbmp3/",
+        "dates_utc": {
+            "launch": "2019-02-22 01:45",
+            "docked": "2019-02-24 14:45",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "2019-02-24 18:30",
+            "first_leg_started": "2019-02-24 18:54",
+            "last_leg_finished": "",
+            "horizontal": "2019-02-26 16:40",
+            "transported": ""
+        }
+    },
+    {
+        "mission_name": "Iridium NEXT-8",
+        "port": "Port of L.A.",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/aewp4r/",
+        "dates_utc": {
+            "launch": "2019-01-11 15:31",
+            "docked": "2019-01-13 16:11",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "2019-01-13 23:35",
+            "first_leg_started": "2019-01-15 19:38",
+            "last_leg_finished": "",
+            "horizontal": "",
+            "transported": "2019-01-20 22:46"
+        }
+    },
+    {
+        "mission_name": "SSO-A",
+        "port": "Port of L.A.",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/a2tjoe/",
+        "dates_utc": {
+            "launch": "2018-12-03 18:34",
+            "docked": "2018-12-05 16:55",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "",
+            "first_leg_started": "2018-12-08 17:53",
+            "last_leg_finished": "",
+            "horizontal": "",
+            "transported": ""
+        }
+    },
+    {
+        "mission_name": "SSO-A",
+        "port": "Port of L.A.",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/a2tjoe/",
+        "dates_utc": {
+            "launch": "2018-12-03 18:34",
+            "docked": "2018-12-05 16:55",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "",
+            "first_leg_started": "2018-12-08 17:53",
+            "last_leg_finished": "",
+            "horizontal": "",
+            "transported": ""
+        }
+    },
+    {
         "mission_name": "Es'Hail 2",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/9xmpa7/",
@@ -12,7 +92,7 @@
             "first_leg_started": "",
             "last_leg_finished": "2018-11-21 13:00",
             "horizontal": "2018-11-21 17:00",
-            "transported": ""
+            "transported": "2018-11-21 21:11"
         }
     },
     {
@@ -32,7 +112,7 @@
         }
     },
     {
-        "mission_name": "Merah Putih (Telkom-4)",
+        "mission_name": "Merah Putih",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/95gg6j/",
         "dates_utc": {
