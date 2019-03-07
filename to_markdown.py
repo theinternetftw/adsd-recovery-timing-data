@@ -57,6 +57,7 @@ def make_link(text, url):
 
 def make_table(all_data):
     md = ''
+    calcs = get_calcs() # only used for name and order here
     for idx in range(0, len(all_data), MAX_ENTRIES_PER_LINE):
         data = all_data[idx : idx + MAX_ENTRIES_PER_LINE]
 
@@ -71,14 +72,40 @@ def make_table(all_data):
             md += '| ' + '| '.join([display_row_name] + cols) + '|\n'
 
         for row_name, fn in calcs:
-            cols_data = [fn(entry) for entry in data]
+            cols_data = [entry[row_name] for entry in data]
             cols = ['{:.02f}'.format(x) if x != None else '' for x in cols_data]
             display_row_name = row_name.replace('_', ' ')
             md += '| ' + '| '.join([display_row_name] + cols) + '|\n'
         md += '\n'
     return md
 
-calcs = get_calcs()
+def add_calcs(data):
+    calcs = get_calcs()
+    for entry in data:
+        for row_name, fn in calcs:
+            entry[row_name] = fn(entry)
+    return data
+
+def add_record_time(data):
+    calcs = get_calcs()
+    entry = {k:'' for k,v in data[0].items()}
+    entry['dates_utc'] = {k:'' for k,v in data[0]['dates_utc'].items()}
+    for row_name, fn in calcs:
+        entry[row_name] = 99999
+    entry['mission_name'] = 'Record Times'
+    entry['recovery_thread'] = 'https://www.reddit.com/r/spacex/wiki/recovery_timing'
+    for row_name, fn in calcs:
+        for d in data:
+            v = d[row_name]
+            if v != None and v < entry[row_name]:
+                entry[row_name] = v
+        entry[row_name]
+    return [entry] + data
+
+def process_data(data):
+    data = add_calcs(data)
+    data = add_record_time(data)
+    return data
 
 def main():
     with open('data.json', 'rb') as f:
@@ -86,10 +113,12 @@ def main():
         all_data = json.load(f)
 
         print('### East Coast Landings\n')
-        print(make_table([x for x in all_data if x['port'] == 'Port Canaveral']))
+        east_coast_processed = process_data([x for x in all_data if x['port'] == 'Port Canaveral'])
+        print(make_table(east_coast_processed))
 
         print('### West Coast Landings\n')
-        print(make_table([x for x in all_data if x['port'] == 'Port of L.A.']))
+        west_coast_processed = process_data([x for x in all_data if x['port'] == 'Port of L.A.'])
+        print(make_table(west_coast_processed))
 
 
 
