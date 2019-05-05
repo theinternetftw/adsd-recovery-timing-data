@@ -1,5 +1,21 @@
 [
     {
+        "mission_name": "CRS-17",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/bjy7p5/",
+        "dates_utc": {
+            "launch": "2019-05-04 06:48",
+            "docked": "2019-05-04 20:58",
+            "crane_cap_on_booster": "2019-05-05 13:00",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "2019-05-05 14:53",
+            "first_leg_started": "",
+            "last_leg_finished": "",
+            "horizontal": "",
+            "transported": ""
+        }
+    },
+    {
         "mission_name": "DM-1",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/awo5lf/",
