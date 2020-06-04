@@ -1,6 +1,129 @@
-[
+[    
+    {
+        "mission_name": "DM-2",
+        "notes": "*Leg retract on ASDS*",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/gu5gkd/",
+        "dates_utc": {
+            "launch": "2020-05-30 19:22",
+            "docked": "2020-06-02 18:58",
+            "crane_cap_on_booster": "2020-06-03 14:24",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "",
+            "first_leg_started": "2020-06-03 15:34",
+            "last_leg_finished": "2020-06-03 16:40",
+            "horizontal": "2020-06-03 21:45",
+            "transported": "2020-06-04 18:32"
+        }
+    },
+
+    {
+        "mission_name": "Starlink-6",
+        "notes": "",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/g6kztd/",
+        "dates_utc": {
+            "launch": "2020-04-22 19:30",
+            "docked": "2020-04-26 13:52",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "",
+            "first_leg_started": "2020-04-28 17:42",
+            "last_leg_finished": "2020-04-28 20:58",
+            "horizontal": "2020-04-28 21:50",
+            "transported": ""
+        }
+    },
+    {
+        "mission_name": "Starlink-3",
+        "notes": "",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/evnyij/",
+        "dates_utc": {
+            "launch": "2020-01-29 14:07",
+            "docked": "2020-02-01 15:42",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "",
+            "first_leg_started": "",
+            "last_leg_finished": "2020-02-03 23:36",
+            "horizontal": "",
+            "transported": ""
+        }
+    },
+    {
+        "mission_name": "Starlink-2",
+        "notes": "",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/elgp5k/",
+        "dates_utc": {
+            "launch": "2020-01-07 02:33",
+            "docked": "2020-01-09 23:06",
+            "crane_cap_on_booster": "2020-01-10 18:29",
+            "ship_lift_start":  "2020-01-10 19:54",
+            "ship_lift_finish": "2020-01-10 20:51",
+            "first_leg_started": "2020-01-11 14:59",
+            "last_leg_finished": "",
+            "horizontal": "2020-01-12 20:45",
+            "transported": ""
+        }
+    },
+    {
+        "mission_name": "JCSat-18/Kacific 1",
+        "notes": "",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/ec48p3/",
+        "dates_utc": {
+            "launch": "2019-12-17 00:10",
+            "docked": "2019-12-19 19:00",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "2019-12-20 15:07",
+            "ship_lift_finish": "2019-12-20 16:00",
+            "first_leg_started": "",
+            "last_leg_finished": "2019-12-20 19:59",
+            "horizontal": "2019-12-20 22:48",
+            "transported": ""
+        }
+    },
+    {
+        "mission_name": "CRS-19",
+        "notes": "",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/e6lbzy/",
+        "dates_utc": {
+            "launch": "2019-12-05 17:29",
+            "docked": "2019-12-07 14:11",
+            "crane_cap_on_booster": "",
+            "ship_lift_start":  "",
+            "ship_lift_finish": "",
+            "first_leg_started": "",
+            "last_leg_finished": "2019-12-10 15:23",
+            "horizontal": "2019-12-11 14:06",
+            "transported": ""
+        }
+    },
+
     {
         "mission_name": "Starlink-1",
+        "notes": "",
+        "port": "Port Canaveral",
+        "recovery_thread": "https://www.reddit.com/r/spacex/comments/du1duu/",
+        "dates_utc": {
+            "launch": "2019-11-11 14:50",
+            "docked": "2019-11-15 13:45",
+            "crane_cap_on_booster": "2019-11-15 17:19",
+            "ship_lift_start":  "2019-11-15 20:15",
+            "ship_lift_finish": "",
+            "first_leg_started": "2019-11-18 13:16",
+            "last_leg_finished": "",
+            "horizontal": "2019-11-19 17:32",
+            "transported": ""
+        }
+    },
+ 
+    {
+        "mission_name": "Starlink v0.9",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/bsaljm/",
         "dates_utc": {
@@ -17,6 +140,7 @@
     },
     {
         "mission_name": "CRS-17",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/bjy7p5/",
         "dates_utc": {
@@ -33,6 +157,7 @@
     },
     {
         "mission_name": "DM-1",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/awo5lf/",
         "dates_utc": {
@@ -49,6 +174,7 @@
     },
     {
         "mission_name": "Nusantara Satu",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/atbmp3/",
         "dates_utc": {
@@ -65,6 +191,7 @@
     },
     {
         "mission_name": "Iridium NEXT-8",
+        "notes": "",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/aewp4r/",
         "dates_utc": {
@@ -81,6 +208,7 @@
     },
     {
         "mission_name": "SSO-A",
+        "notes": "",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/a2tjoe/",
         "dates_utc": {
@@ -97,6 +225,7 @@
     },
     {
         "mission_name": "SSO-A",
+        "notes": "",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/a2tjoe/",
         "dates_utc": {
@@ -113,6 +242,7 @@
     },
     {
         "mission_name": "Es'Hail 2",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/9xmpa7/",
         "dates_utc": {
@@ -129,6 +259,7 @@
     },
     {
         "mission_name": "Telstar 18V",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/9erxlh/",
         "dates_utc": {
@@ -145,6 +276,7 @@
     },
     {
         "mission_name": "Merah Putih",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/95gg6j/",
         "dates_utc": {
@@ -161,6 +293,7 @@
     },
     {
         "mission_name": "Iridium NEXT-7",
+        "notes": "",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/921sie/",
         "dates_utc": {
@@ -177,6 +310,7 @@
     },
     {
         "mission_name": "Telstar 19V",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/9105zw/",
         "dates_utc": {
@@ -193,6 +327,7 @@
     },
     {
         "mission_name": "Bangabandhu-1",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/8j6moa/",
         "dates_utc": {
@@ -209,6 +344,7 @@
     },
     {
         "mission_name": "TESS",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/8dg4pj/",
         "dates_utc": {
@@ -225,6 +361,7 @@
     },
     {
         "mission_name": "Koreasat 5A",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/79iuvb/",
         "dates_utc": {
@@ -241,6 +378,7 @@
     },
     {
         "mission_name": "SES-11 / Echostar-105",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/76fqz1/",
         "dates_utc": {
@@ -257,6 +395,7 @@
     },
     {
         "mission_name": "Iridium NEXT-3",
+        "notes": "",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/75z823/",
         "dates_utc": {
@@ -273,6 +412,7 @@
     },
     {
         "mission_name": "Formosat-5",
+        "notes": "",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/6wk653/",
         "dates_utc": {
@@ -289,6 +429,7 @@
     },
     {
         "mission_name": "Iridium NEXT-2",
+        "notes": "",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/6k16ho/",
         "dates_utc": {
@@ -305,6 +446,7 @@
     },
     {
         "mission_name": "BulgariaSat-1",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/6k3kop/",
         "dates_utc": {
@@ -321,6 +463,7 @@
     },
     {
         "mission_name": "SES-10",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/634gmr/",
         "dates_utc": {
@@ -337,6 +480,7 @@
     },
     {
         "mission_name": "Iridium NEXT-1",
+        "notes": "",
         "port": "Port of L.A.",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/5oe9kk/",
         "dates_utc": {
@@ -353,6 +497,7 @@
     },
     {
         "mission_name": "JCSAT-16",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/4y5xd1/",
         "dates_utc": {
@@ -369,6 +514,7 @@
     },
     {
         "mission_name": "THAICOM-8",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/4lz2y6/",
         "dates_utc": {
@@ -385,6 +531,7 @@
     },
     {
         "mission_name": "JCSAT-14",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/4ihp1p/",
         "dates_utc": {
@@ -401,6 +548,7 @@
     },
     {
         "mission_name": "CRS-8",
+        "notes": "",
         "port": "Port Canaveral",
         "recovery_thread": "https://www.reddit.com/r/spacex/comments/4ee2zy/",
         "dates_utc": {
