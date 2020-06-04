@@ -6,9 +6,10 @@ from datetime import datetime
 import json
 
 required_structure = {
-    'mission_name': str,
+    'mission_name': 'str',
+    'notes': 'str',
     'port': 'port',
-    'recovery_thread': str,
+    'recovery_thread': 'str',
     'dates_utc': {
         'launch': 'time',
         'docked': 'time',
@@ -27,7 +28,7 @@ def check_types(ref, test):
         assert test == '' or datetime.strptime(test, '%Y-%m-%d %H:%M')
     elif ref == 'port':
         assert test in ['Port Canaveral', 'Port of L.A.']
-    elif ref == str:
+    elif ref == 'str':
         errmsg = repr(test) + ' doesn\'t match ' + repr(ref)
         assert type(test) == str or type(test) == unicode, errmsg
     else:

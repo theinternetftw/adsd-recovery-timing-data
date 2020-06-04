@@ -55,6 +55,10 @@ def make_link(text, url):
 	safe_url = url.replace(')', '\\)')
 	return '[' + safe_text + ']' + '(' + safe_url + ')'
 
+def make_row(row_name, cols):
+    display_row_name = row_name.replace('_', ' ')
+    return '| ' + '| '.join([display_row_name] + cols) + '|\n'
+
 def make_table(all_data):
     md = ''
     calcs = get_calcs() # only used for name and order here
@@ -66,10 +70,11 @@ def make_table(all_data):
         dashes = ['---' for entry in data]
         md += '| ---| ' + '| '.join(dashes) + '|\n'
 
+        md += make_row('notes', [entry['notes'] for entry in data])
+
         for row_name in rows:
             cols = [entry['dates_utc'][row_name] for entry in data]
-            display_row_name = row_name.replace('_', ' ')
-            md += '| ' + '| '.join([display_row_name] + cols) + '|\n'
+            md += make_row(row_name, cols)
 
         for row_name, fn in calcs:
             cols_data = [entry[row_name] for entry in data]
@@ -94,6 +99,7 @@ def add_record_time(data):
         entry[row_name] = 99999
     entry['mission_name'] = 'Record Times'
     entry['recovery_thread'] = 'https://www.reddit.com/r/spacex/wiki/recovery_timing'
+    entry['notes'] = ''
     for row_name, fn in calcs:
         for d in data:
             v = d[row_name]
@@ -102,8 +108,20 @@ def add_record_time(data):
         entry[row_name]
     return [entry] + data
 
+def add_average(data):
+    calcs = get_calcs()
+    entry = {k:'' for k,v in data[0].items()}
+    entry['dates_utc'] = {k:'' for k,v in data[0]['dates_utc'].items()}
+    entry['mission_name'] = 'Average'
+    entry['recovery_thread'] = 'https://www.reddit.com/r/spacex/wiki/recovery_timing'
+    for row_name, fn in calcs:
+        row = [d[row_name] for d in data if d[row_name] != None]
+        entry[row_name] = sum(row) / len(row)
+    return [entry] + data
+
 def process_data(data):
     data = add_calcs(data)
+    # data = add_average(data)
     data = add_record_time(data)
     return data
 
